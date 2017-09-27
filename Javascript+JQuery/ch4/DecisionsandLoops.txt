@@ -1,0 +1,41 @@
+How to create and control the flow of data.
+
+Evaluations: you an analyze valyes in your scripts to determine whether or not they match expected results.
+    === is strict equal to. both data type and value are the same.
+    !== strict not equal to. 
+
+
+Decisions: using the results of evaluations, you can decide which path your script should go down.
+    if (score >= 50) {
+        msg += 'Congragulations';
+    }
+    pretty typical if.
+
+    switch (level) {
+        case 'One':
+            title = "lelel2";
+            break;
+
+        default:
+            title - 'test';
+            break;
+    }
+    normal switch
+
+    Type Coercion and Weak Typing: if you use a type JS does not expect, it will try it anyways.
+    This means that EVERY value in JS can be treated as TRUE (Truthy) or FALSE (Falsy).
+
+
+
+Loops: there are also many occassions where you will want to perform the same set of steps repeatedly
+    var i;
+    for (i = 0; i < 10; i++) {
+        // code
+    }
+    // normal java Loops
+
+    JS renders the entire browser so large loops FREEZE THE PAGE
+
+
+Summary
+    JS is another programming language.  With some strange truthy / falsy quirks

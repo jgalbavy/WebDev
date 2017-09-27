@@ -1,0 +1,38 @@
+/*
+    Test file for CSS of chapter 11.
+*/
+
+body {
+    background-color: rgb(200,200,200);
+}
+
+/* color name */
+h1 {
+    color: darkcyan;
+    /* 
+    hex code 
+    color: #ee3e80
+
+    RGB value
+    color: rbg(100,100,90);
+    */
+}
+.page {
+    background-color: #008B8B;
+    color: black;
+}
+
+.page2 {
+    background-color: rgb(0.0.0.0.5);
+}
+
+.page3 {
+    background-color: #C8C8C8;
+    background-color: hsl(0,100%, 100%, 0.5);
+}
+
+#dims {
+    height: 300px;
+    width: 400px;
+    background-color: #E1ddda;
+}

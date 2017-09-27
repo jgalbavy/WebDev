@@ -1,0 +1,42 @@
+Basic Intro to JS:
+    How to read syntax and grammar.
+    Giving instructions for browser to follow.
+
+Statements: individual instructions.
+
+---
+JS is case senseative!!! (WHY?!)
+
+Comments: The usual // and /* */
+
+Variables: use camelCase
+var myQuantity = 3;
+
+Data Types: Numeric, String, Boolean, etc.
+
+Variable Rules:
+    1. Name must begin with $ or _ NOT a number.
+    2. No - or . in the name
+    3. No Keywords
+    4. Case senseative
+    5. Use a useful name
+    6. camelCase
+    Typical rules.
+
+---
+Arrays
+
+var colors;
+colors = ['white', 'black', 'custom'];
+
+or 
+
+var colors = new Array('white', 'black', 'custom');
+
+Typical Array stuff.
+
+Expressions - yep JS has it.
+
+Operators - yep
+
+String stuff: just the + (join)

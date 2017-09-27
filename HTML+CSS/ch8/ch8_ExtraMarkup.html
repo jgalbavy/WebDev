@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Chapter 8: Extra Markup</title>
+    </head>
+    <body>
+        <h3>
+            <ul>
+                <li>Specifying different versions of HTML</li>
+                <li>Identifying and grouping elements</li>
+                <li>Comments, meta information, and iframes</li>
+            </ul>
+        </h3>
+        
+        <h1>Evolution of HTML</h1>
+        <p>
+            HTML4: Lots has been replaced by CSS <br>
+            XHTML: Added to include XML use, made the language more strict <br>
+            HTML5: In progress. Dont need closing tags, New elements / attributes.
+        </p>
+
+        <p>Doctypes. First line of file include the doctype, html5 by default</p>
+        <p>Comments: "!-- --" where " = angled brackets</p>
+        <!-- Comment like this -->
+
+        <p>ID Attribute: every HTML element can carry one and its used to uniquely identify that element from others. <br>
+            Make it unique, duh or it wont be unique.  Very useful for CSS and JS.  
+        </p>
+
+        <p>
+            Class attribute: Used to uniquely identify a group of elements (Like classes in other languages), Couple this with CSS for ideal presentation.
+        </p>
+
+        <p>
+            Block elements: Block level elements always start on a new line. <br>
+            Examples:  h1, p, ul, li
+        </p>
+
+        <p>
+            Inline elements: Elements always appear to continue on the same line. <br>
+            Examples: a, b, em, img
+        </p>
+
+        <p>
+            Grouping Text and Elements in a block: "div" element.
+        </p>
+
+        <p>
+            Grouping text and elements in line: "span" element. Combo it with a span class to make in line modifications.
+        </p>
+
+        <p>
+            IFrames is like a little window cut into the page to see another page.  Short for inline frame.
+            Common use to to embed google maps. <br>
+            Attributes: <br>
+            Src - specifies the URL to show in the iframe. <br>
+            height and width - the usual <br>
+            scrolling - Not supported in HTML5, Whether it should have scrollbars or not. <br>
+            Frameborder - Not supported in HTML5. true or false for border. <br>
+            seamless - New to 5, doesnt need a value.
+        </p>
+
+        <h3>Information about your page</h3>
+
+        <p>
+            "Meta" lives inside the "head" element and contains info about the page. 
+            Not visible to users but VERY useful (like telling search enginers about the page). <br>
+            Empty element so no closing tag.
+            Attributes are: <br>
+            name, content used together <br>
+            Description- used by search enginers to understand the page <br>
+            Keywords - list of words that a user might search for on to find the page (not used in practice tho) <br>
+            Robots - indicates whether search enginers should add this page to their search results or not <br>
+            Author - you?<br>
+            Pragma - prevents the browser from caching the page (loading locally) <br>
+            Expires - should itand when 
+
+        </p>
+
+        <h3>Escape Characters</h3>
+        <p>
+            &lt; is written with &amp;lt
+        </p>
+
+
+
+
+    </body>
+
+</html>

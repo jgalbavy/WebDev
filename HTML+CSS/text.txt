@@ -1,0 +1,52 @@
+2. Text
+
+Structural Markup
+    elements you can use to descrube both headings and paragraphs.
+
+Semantic Markup
+    provides extra information such as where emphasis is placed in a sentence, qutationsm etc
+
+<h1> headers up to 6
+
+<p> paragraph
+
+<b> bold
+
+<i> italics
+
+<sup> superscript
+
+<sub> subscript
+
+White Page collapsing in html, it is ignored
+
+<br /> breaks to new line
+
+<hr /> horizontal rule, horizontal line across
+
+SEMANTIC MARKUP:
+<strong> indicates strong importance
+
+<em> emphasis, can be then italisized
+
+quotes
+<blockquote> used for longer quotes that take up an entire paragraph
+<q> used for shorter ones that sit inside paragraphs
+
+<abbr> used like <abbr itle="Professor"> Prof </abbr>
+
+<acronym title="National Aeronatucs ans Space Administration">NASA</acronym>
+
+<cite> used when referencing a film, book, or paper rendered in italics.
+
+<dfn> used when first defining a technical term. 
+
+Author details:
+<address> specifically used to contain details for the author of the page
+
+<ins> to clarify it was inserted
+<del> crosses it out to show removal
+
+<s> scratched out, used to clarify its no longer relevant
+
+

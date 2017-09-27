@@ -1,0 +1,125 @@
+<html>
+    <head>
+        <title>Chapter 6: Tables</title>
+    </head>
+    <body>
+        <p>How to collect information from visitors
+            Different Kinds of form controls
+            <<br>
+            New HTML5 form controls
+        </p>
+        <h1>Basics</h1>
+        <h2>Why Forms</h2>
+        <p>Best known is Google's Search Box
+            <br>
+            Form controls <br>
+            <ul>
+                <li>Adding Text: Text Input, Password Input, Text Area</li>
+                <li>Making Choices: Radio Buttons, Checkboxes, Drop-Down boxes</li>
+                <li>Submitting Forms: Submit buttons, Image buttons</li>
+                <li>File Upload</li>
+            </ul>
+        </p>
+
+        <h3>
+            How Forms Work (interaction with server)
+        </h3>
+
+        <h2>Elements</h2>
+        <p>
+            <ul>
+                <li>"form" all form controls live in this one. <br>
+                    Action atribute is the URL for the page n the server that will receive the infromation in the form when it is submitted. <br>
+                    Method Attribute: Get or Post
+                </li>
+
+                <li>
+                    text Input <br>
+                    "input" element create several form controls <br>
+                    type="text" attribute creates a single line text input <br>
+                    name attribute: when a user enters information into a form, the server needs to know which form controo each piece of data was entered into. Therefore each form control reqyires a name attribute the valye of this attruvyte identifies the form control. <br>
+                    maxlength attribute limits the number of characters a user may enter into the text field.
+
+                </li>
+
+                <li>
+                    password input <br>
+                    type="password", uses name, size, and maxlength
+                </li>
+
+                <li>
+                    Text Area <br>
+                    Creates multiline text box.  Has opening and closing tags.
+                </li>
+
+                <li>Radio Button <br> type="radio", name, value, checked attributes</li>
+
+                <li>Checkbox<br>type="checkbox", name, value, checked</li>
+
+                <li>Drop-Down List Box</li>
+
+                <li>File Input Box<br> input, type="file",</li>
+
+                <li>Submit Button</li>
+
+                <li>Image Button</li>
+
+                <li>Label: label each form control</li>
+
+                <li>Fieldset grps controls together</li>
+
+            </ul>
+
+            <ul>
+                HTML5
+                <li>Form Validation</li>
+                <li>Date input</li>
+                <li>Email and URL input (type="email" or "url")</li>
+                <li>search input</li>
+            </ul>
+        </p>
+
+        <h1>Example</h1>
+
+
+
+                    <form action="http://www.example.com/review.php" method="get">
+                        <fieldset>
+                            <legend>Your Details:</legend>
+                            <label>Name: <input type="text" name="name" size="30" maxlength="100"></label><br />
+                            <label>Email: <input type="email" name="email" size="30" maxlength="100"></label><br />
+                        </fieldset><br />
+                        <fieldset>
+                            <legend>Your Review:</legend>
+                            <p>
+                                <label for="hear-about">How did you hear about us?</label>
+                                <select name="referrer" id="hear-about">
+                                    <option value="google">Google</option>
+                                    <option value="friend">Friend</option>
+                                    <option value="advert">Advert</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </p>
+                            <p>
+                                Would you visit again?<br />
+                                <label><input type="radio" name="rating" value="yes" /> Yes</label>
+                                <label><input type="radio" name="rating" value="no" /> No</label>
+                                <label><input type="radio" name="rating" value="maybe" /> Maybe</label>
+                            </p>
+                            <p>
+                                <label for="comments">Comments:</label><br />
+                                <textarea rows="4" cols="40" id="comments"></textarea>
+                            </p>
+                            <label><input type="checkbox" name="subscribe" checked="checked" /> Sign me up for email updates</label><br />
+                            <input type="submit" value="Submit review" />
+                        </fieldset>
+                    </form>
+
+
+
+
+        </body>
+
+        </html>
+
+

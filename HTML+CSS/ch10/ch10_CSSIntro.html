@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Chapter 10: CSS Intro</title>
+        <style type="text/css">
+            body {
+                font-family: arial;
+                background-color: wheat; 
+            }
+
+        </style>
+    </head>
+    <body>
+        
+        <h2>CSS Parts</h2>
+        <p>Two Parts: Selector and Declariation  <br>
+            Selectors indicate which element the rule applies to. The same rule can apply to more than one element if you separate the element names with commas. <br>
+            Declarations indicate how the elements referred to in the selector should be styled. Declarations are split into two parts (a property and value) seperated by a colon. <br>
+            See attached CSS file.
+            <br> <br>
+            Inside Head make sure to add the link to the css file. <br>
+            Can add internal CSS with *style* element inside header (instead of link). <br>
+            External CSS is much more flexible and therefore preferred. <br>
+        </p>
+
+        <h3>CSS selectors</h3>
+        <p>
+            Universal selects all elements = * <br>
+            Type Selector: matches element names = h1, h2, h3 {} <br>
+            Class selector: matches an alemenet whose class attriubte has a valye that matches the one specified after the . = .class {} <br>
+            ID Selector: Matches whose id attribute matches the one specified = #id {} <br>
+            Child selector: matches an element that is a direct child = li>a {} ---> targets any *a* elelement that are children of an *li* element (but not other a ele.) <br>
+            Descendent selector: matches an ele. that is a descendant of another (not JUST direct) = p a {} --> targets ANY a inside P even if there are elements nested between <br>
+            Adjacent sibling selector: matches an element that is the next sibling of another = h1+p {} <br>
+            General Sibling Selector: matches an ele. that is a sibling of another althought it does not have to be direclty preceding element = h1~p {} <br>
+
+        </p>
+
+        <h3>How it cascades</h3>
+        <p>
+            Last Rule: latter of two same named rules takes precedence <br>
+            Specificity: higher specificity takes precendence (h1 more detailed than *) <br>
+            !Important: marks it as important rule <br>
+            Cascading is VITAL to elegent pages.
+
+            <br>
+            Inheretance: child elements inhertet from parents. <br>
+            
+        </p>
+
+        </body> 
+        </html>

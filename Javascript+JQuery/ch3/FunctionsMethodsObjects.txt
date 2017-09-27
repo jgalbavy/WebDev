@@ -1,0 +1,42 @@
+Functions and Methods:
+    ex
+    function updateMessage() {
+        var el = document.getElementById('message');
+    }
+    Returns one object, however, if you need to return multiple values, you can make an array.
+    e.g. sizes = [area, volume]
+    return sizes;
+
+    Anymous Functions:
+    var area = function(width, height) {
+        return width * height;
+    }
+    var size = area(3,4);
+
+    You can also IMMEDIATELY invoke a function by adding () after.
+
+    Variable scope:
+    Local vs global
+
+Objects:
+    Just a giant var in JS.
+    var hotel = {
+        name: 'Quay',
+    }
+    literal notation above.
+
+    Constructor notation:
+    var hotel = new Object();
+    hotel.name = 'Quay'
+    hotel.checkAval = function() {
+        return this.rooms - this.booked;
+    }
+
+
+Built-In Objects
+    Browser Object Model 
+        window object
+    Document Object Model
+        HTML page basically
+    Global Javascript Objects
+        

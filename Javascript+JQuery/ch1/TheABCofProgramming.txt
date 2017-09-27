@@ -1,0 +1,24 @@
+A. What is a script? How do I create one?
+    Script: a series of instructions (recipes, handbooks, manuals).
+    1. Define the goal- break it into tasks
+    2. Design the script- each task may be broken down into steps.
+    3. Code each step- from steps to code.
+    *Basic coding*
+
+B. How do computers fit in with the world around them?
+    -Computers create models of the world using data.
+    Objects-things each has its own properties, events, methods.
+    Properties- characteristics, have name and values.
+    Events- interaction of Objects
+    Methods- what the object can do.
+    Put it all together!
+
+    Document object represents an HTML page.
+    (DOM: Document Object Model)
+
+C. Writing a script for a web page?
+    Html: content layer
+    CSS: Presentation layer
+    Javascript: Behavior layer
+
+Example time.

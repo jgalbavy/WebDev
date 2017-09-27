@@ -1,0 +1,14 @@
+Structure:
+
+Web pages are really just made up of hierarchical tags.
+
+<html> ia the first tag denoting everything in between is html code.
+
+<head> consists of WHAT the page is about, has a <title> tag.
+
+<body> everything the user will see will be in this tag.
+
+Opening tags can carry attributes htat require a name and a valye
+
+Content Management Systems
+
