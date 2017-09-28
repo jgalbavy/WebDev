@@ -1,0 +1,33 @@
+Events - "Hey this just happened"
+
+Interactions create Events
+
+Events trigger code
+
+Code Responds to user
+
+----
+
+Different event types:
+evets are fired or are raised, they happen
+
+Event Handling-
+    select the elements
+    indicate which event the selected nodes will trigger the response
+    state the code you want to run when it occurs
+
+DO NOT USE HTML EVENT HANDLER ATTRIBUTES
+
+use dom event handlers
+
+Event listeners -> like android studio!
+
+Event Flow - The flow only really matters when your code has event handlers on an element and one of its realted elements
+
+EVENT OBJECT - tells information about event and the element it happened upon
+
+Event Delegation
+
+Can even tell which key is pressed
+
+HTML5 Events
