@@ -1,0 +1,56 @@
+Document Object Model
+    how browsers create a model of an HTML page and how JS can access and update hte contents of a web page whilet is is in the browser window.
+    DOM - neither part of HTML nor part of JS it is seperate sert of rules.
+
+DOM TREE - made of objects, each represents a different part of the page loaded in the browser window
+
+DOM is an API. Made of 4 different types of nodes:
+
+The Document Node - every element, attribute, and peice of text in the HTML is represented by its own DOM NODE.
+    At the top of the tree is the document node which represents the entire page.
+
+Element Nodes - you must access the element first, then you can access its text / attributes.
+
+Attribute Nodes - NOT children of the element that carries them, they are PART of them. 
+
+Text Nodes - after accessing the element node, you can reach the text node within the element.
+
+-----
+
+Working with the DOM Tree:
+
+Step 1: Access the elements
+
+Step 2: Work with that element...?
+
+Methods that find elements int the DOM tree are called DOM queries.  You can store the query for easy use.
+    var itemOne = getElementById('one')
+
+May return a node list.
+
+NodeLists - live vs static (live gets updated with the page)
+    treat it like a regular list -- elements.item(0) or elements[0]
+
+
+Traversing the DOM --> when you have an element node, you can select another element in relation to it using:
+
+    parentNode
+
+    previousSibbling / nextSibling
+
+    firstChild / lastChild
+
+
+Whitespace Nodes
+    can just avoid using these properties all together (Yay)
+
+Adding or removing HTML contents
+    innerHTML - good for updating entire fragments
+    DOM manipulation - easily targets individual nodes in the DOM
+        createElement
+        createTextNode
+        appendChild
+
+Cross Site Scripting!!!
+
+Summary - you can grab elements from HTML in JS
