@@ -1,0 +1,47 @@
+jQuery - simple way to achieve a variety of common JS tasks quickly and consistenyl across all majjor browsers without any fallback code
+
+Select Elements
+
+Perform tasks
+
+Handle Events
+
+Its basically just a library
+
+$('li.hot') ==> jQuery function with one parameter: a CSS style selector
+
+$('li.hot').addClass('complete'); ==> do something with the element using jQuery methods
+
+Why use jQuery?
+    Its just JS, but WAY SIMPLER
+    1. Simple Selectors with CSS
+    2. Common Tasks in less code
+    3. Cross browser compatebility
+
+Lots of ways to find elements with jQuery
+
+Now do stuff with your selection
+    Once you select one or more elements, a jQuery object is returned AKA matched set or a jQuery slection.
+
+Looping: when a selector returns multole elelements, you just need one method and not a Looping
+
+Chaining: can chain methods to a selection of elements.
+
+.html and .text to retrieve and update content of the elements
+
+Can get and set CSS properties
+    $(li).css('background-color', '#272727');
+
+.each() apply anonymous function to entire list
+
+Placing scripts
+    1. In the Head: avoid it will load page slow
+    2. In the page: still slow
+    3. before </body> this is ideal
+
+api.jquery.com
+can extend with plugins
+
+Summary
+    Good 'libary'
+    Fast and easy (than js)
