@@ -1,0 +1,65 @@
+Ajax
+    technique for loading data into part of a page without having to refresh the entire page. The data is often in JSON
+
+What is Ajax
+Data formats
+jQuery and Ajax
+
+
+What is it? You have seen it and not even realized it! Think of Google search suggestions.
+    Live search / autocomplete
+    shopping carts
+    registration
+Why use it?
+    Asynch so it speeds things up
+How it works
+    1. The request
+        the broeser requests information from the server.
+    On the server -> not part of Ajax
+        the server responds with data (HTML, XML, JSON)
+    2. The Response
+        The browser processes the conteent and adds it to the page.
+    
+Data formats
+    HTML
+        Most familiar. best for updating a section of a web page
+        pros-
+            Easy to write, request, and dispaly
+            The data sent from the server goes straight into the page. No need for the browers to proccess it
+        cons-
+            Server must produce the HTML in a format that is ready to use for the page
+            It is not well suited for us in applications other than web browsers (poor data portability)
+            Request must come from the same domain
+    XML
+        looks similar to html, but different tags.  More strict than html
+       pros-
+            Flexible data format and can represnt complex structures
+            Works well with different platforms and applications
+            Processed using the same DOM methods as HTML
+       cons- 
+            Considred verbose because tags add a lot of extra characters
+            Request must come from the same domain
+            It can require a lot of code to process the result
+    JSON
+        uses similar syntax to object literal notion to present data
+        pros-
+            Can be called from any domain
+            More concise than XML / HTML
+            Commonly used with JS and is getting wider use across the web
+        cons-
+            Syntax not forgiving (broken files)
+            Because it is JS, it can contain malicious content (trusted sources only)
+
+---
+Ajax for working with data from your server
+Working with data from other servers 3 work arounds
+    A proxy file on the web server
+    JSONP(json with padding)
+    Cross-origin resource sharing
+
+jQuery and Ajax 
+    Ex:
+        $('content').load('jq-ajax3.html #content');
+
+Shorthand methods   
+    
