@@ -1,0 +1,42 @@
+Application Programmable Interfaces let programs talk to each other
+---
+Browsers: the DOM is an API. It allows sccripts to access and update the contents of a web page while loaded in the browser.
+    In this chapter you will meet some HTML6 JS APIs to provide accesss to other browser features.
+Scripts: jQuery is a JS file with an API. It alosws you to select elements then use its methods to work with those elements.
+    It is just one of many scripts that let you perform powerful tasks using their code.
+Platforms: Sites such as FB, Google. and Twitter open up their platforms so that you can access and update date they store.
+    In this chapter you will see how Google lets you add their maps to your sites.
+
+----
+
+Modernizr - great way to handle cross-browser issues.
+    Download the script fomr their sites.
+
+Web Storage
+    All 4 parts must match to access the stored data [Protocol, Subdomain, Domain, Port]
+    Commonly used to store JSON data.
+
+History api and pushstate
+    Since Ajax doesnt load new pages, you can use history api to update the location bar and history.
+    history.pushState(state, title, url);
+
+----
+
+Different types of APIs
+
+jQuery Plugins
+    jQuery UI 
+        helps create user Interfaces
+
+AngularJS
+    Easier way to create web apps
+    Based on MVC
+
+
+____
+
+Platform APIs (who hasnt worked with google maps before tho)
+---
+
+Summary
+    APIs and more APIs, everything is an API!!
