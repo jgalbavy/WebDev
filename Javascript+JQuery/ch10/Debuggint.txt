@@ -1,0 +1,12 @@
+How to fix your broken code
+    Console and Dev tools
+    Common Problems
+    Handling Errors
+
+Most of this is just basic programming
+
+console.table(object);
+console.assert
+    console has some cool methods
+Breakpoints and stepping through like java
+Throw errors
