@@ -1,0 +1,23 @@
+Basically little secitons of content in limited space (window, slider, accordian,, etc)
+
+Remember that:
+    HTML is responsible for structuring conten
+    CSS is responsible for presentation
+    JS is responsible for behavior
+
+Accordion
+    clicking on the title expands it
+    typically an UL
+
+Modal Window 
+    any content that appears "in front" of the page and must be closed
+    script can contain module pattern - for both public and private logic
+
+Photo Viewer
+    ex of an image gallery
+    when you click on a thumbail, the main photo is replaced with new image
+    Async loading and chasing images
+
+Responsive Slider 
+    name says it all
+    
