@@ -1,0 +1,23 @@
+FIltering - filtering lets you reduce a set of values by selecting from a criteria
+
+Search - search lets you show the itmes that match one of more keywords
+
+Sorting - sorting lets you reorder a set of items on the page
+
+-----
+
+JS array methods - typical
+jQuery adds some methods
+Old browsers... suck.
+Arrays vs Objects
+
+FIltering
+    usual
+    dyanmic filtering
+
+Search
+    livesearch
+
+Sorting 
+    compare functions
+    
