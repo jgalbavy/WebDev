@@ -1,0 +1,22 @@
+Enhancement and Validation
+
+Helper functions
+
+Submitting forms
+    change type of input
+    submit button
+    checkboxes
+    radio buttons
+    select boxes
+
+HTML5 elements and attributes
+    support and styling
+    placeholder fallback
+    polyfill using modernizr and yepnope
+
+Form Validation 
+    validation overview
+    dealing with errors
+    submitting the forms
+    required elements
+    
